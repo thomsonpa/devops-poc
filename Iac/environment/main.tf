@@ -180,16 +180,7 @@ module "target_group" {
     vpc_id    = module.vpc.vpc_id
     tags      = var.target_group_tags 
 }
-/*
-#Module for Listener
-module "listener" {
-    source            = "../module/load_balancer_listener"
-    load_balancer_arn = module.network_load_balancer.arn
-    port              = var.listener_port
-    protocol          = var.listener_protocol
-    type              = var.listener_type
-    target_group_arn  = module.target_group.arn
-}*/
+
 #Module for Listener
 module "listener_2" {
     source            = "../module/load_balancer_listener"
