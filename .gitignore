@@ -1,0 +1,4 @@
+Iac/environment/.terraform/terraform.tfstate
+Iac/environment/.terraform/modules/modules.json
+Iac/environment/.terraform/providers/registry.terraform.io/hashicorp/aws/3.28.0/windows_amd64/terraform-provider-aws_v3.28.0_x5.exe
+Iac/environment/.terraform/providers/registry.terraform.io/hashicorp/template/2.2.0/windows_amd64/terraform-provider-template_v2.2.0_x4.exe

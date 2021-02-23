@@ -1,0 +1,12 @@
+variable name {}
+variable launch_type {}
+variable scheduling_strategy {}
+variable deployment_maximum_percent {}
+variable deployment_minimum_healthy_percent  {}
+variable cluster {}
+variable task_definition {}
+variable desired_count {}
+variable iam_role {}
+variable target_group_arn {}
+variable container_name {}
+variable container_port {}
